@@ -1,9 +1,5 @@
 new_hash = {:languages => ["C"]}
 
-new_hash[:yukihiro_matsumoto => {
-   :known_for => "Ruby",
-    :languages => ["LISP", "C"]
-  }
-]
+new_hash[:yukihiro_matsumoto] => {}
 
 puts new_hash
