@@ -57,7 +57,7 @@ def dennis_ritchies_language
         }
      }
 #programmer_hash[:dennis_ritchie][:languages].to_s
-programmer_hash[:dennis_ritchie][:languages]
+programmer_hash[:dennis_ritchie][:languages].flatten
 end
 
 def adding_matz
